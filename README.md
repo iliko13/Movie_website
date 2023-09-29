@@ -1,5 +1,7 @@
 # React + Vite + TailwindCSS
 
+Live server: https://startling-madeleine-1204ee.netlify.app
+
 This is a responsive movie app which is fully made by me.
 
 In this project I'm using React tools, such as:
