@@ -23,7 +23,7 @@ function AppLayout() {
         setIsLoading(true);
         setError("");
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&s=${search}`,
+          `https://www.omdbapi.com/?apikey=${KEY}&s=${search}`,
         );
 
         if (!res.ok) throw new Error("Something went wrong");
@@ -53,7 +53,7 @@ function AppLayout() {
         setIsLoading(true);
         setError("");
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${KEY}&i=${selectedID}`,
+          `https://www.omdbapi.com/?apikey=${KEY}&i=${selectedID}`,
         );
 
         if (!res.ok) throw new Error("Something went wrong");
